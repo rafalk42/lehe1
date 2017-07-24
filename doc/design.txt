@@ -1,6 +1,12 @@
 [concepts]
-* Lesson - a single unit containing any number of pictures, title and description.
+* Lesson - a single unit with title and description.
+* lesson types:
+ - listen and write: an audio file is played, so that the user can write down an answer and check it by moving mouse over an element
 
 [views]
  * List of lessons - a list of all available lessons.
- * Lesson - the lesson to present.
+ * Lesson - the lesson to present:
+  - title
+  - list of elements (as tiles), each one consisting of:
+   # clickable icon (plays a sound when activated)
+   # normally hidden answer box (text)
